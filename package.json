@@ -1,0 +1,11 @@
+{
+  "name": "sotory",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "serve demo"
+  },
+  "devDependencies": {
+    "serve": "^11.2.0"
+  }
+}
