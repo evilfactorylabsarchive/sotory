@@ -1,0 +1,76 @@
+.c-sotory__avatar {
+  z-index: 1;
+  position: relative;
+  padding: 2px;
+  width: 100%;
+  border: 2px solid #eee;
+  border-radius: 999px;
+}
+.c-sotory__avatar:hover {
+  cursor: pointer;
+}
+
+.c-sotory__avatar--has-story {
+  border-color: purple;
+  animation: bhaa 6s infinite;
+}
+
+.c-sotory {
+  max-width: 100%;
+  width: 470px;
+  margin: auto;
+}
+
+.c-sotory__container {
+  width: 0;
+  transform: scale(0.3);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s all;
+  position: relative;
+  height: 0;
+}
+
+.c-sotory__container--is-show {
+  height: 100vh;
+  width: 100%;
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+
+.c-sotory__container .c-sotory__indicator {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.c-sotory__container .c-sotory__indicators {
+  margin: 5px;
+  flex: 1;
+  height: 3px;
+  background: #eee;
+  border-radius: 999px;
+}
+
+@keyframes bhaa {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
