@@ -1,4 +1,8 @@
-.c-sotory__avatar {
+.c-sotory-avatar {
+  width: 56px;
+}
+
+.c-sotory-avatar__image {
   z-index: 1;
   position: relative;
   padding: 2px;
@@ -6,11 +10,12 @@
   border: 2px solid #eee;
   border-radius: 999px;
 }
-.c-sotory__avatar:hover {
+
+.c-sotory-avatar__image:hover {
   cursor: pointer;
 }
 
-.c-sotory__avatar--has-story {
+.c-sotory-avatar__image--has-story {
   border-color: purple;
   animation: bhaa 6s infinite;
 }
