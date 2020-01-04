@@ -2,7 +2,7 @@
 
 create Instagram-like story on the web.
 
-This is still under heavy development and for our blog posts purpose.
+This library is still under heavy development and was purposefully made to be showcased and discussed on our [blog](https://blog.evilfactory.id).
 
 ## Demo
 
@@ -10,13 +10,13 @@ This is still under heavy development and for our blog posts purpose.
 
 ## Development
 
-- Clone repo
-- Install `devDependencies` in case you don't have `serve` installed globally
-- `yarn dev`
+- Clone this repository
+- Install `devDependencies`, this step is unnecessary if you have `serve` globally installed
+- `yarn dev` (`npm run dev` is frowned upon)
 
 ## Usage
 
-To use this library you need to setup your configuration file.
+To use this library, you're going to have to setup a configuration file.
 
 Folder structure:
 
@@ -97,27 +97,6 @@ Then import configuration file to `index.html`.
 
 Enjoy.
 
-## LICENSE
+## License
 
-```
-The MIT License (MIT)
-Copyright (c) 2019 evilfactorylabs
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
-OR OTHER DEALINGS IN THE SOFTWARE.
-```
+This library is licensed under MIT. The license file is available to be seen [here](https://github.com/evilfactorylabs/sotory/blob/master/LICENSE).
